@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494C7882200D90D50017D037 /* XMGHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C787E200D90D40017D037 /* XMGHttpManager.m */; };
+		494C7883200D90D50017D037 /* XMGNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C7881200D90D40017D037 /* XMGNetworkManager.m */; };
 		49824C35200C3CAD00EF18A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C34200C3CAD00EF18A5 /* AppDelegate.m */; };
 		49824C38200C3CAD00EF18A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C37200C3CAD00EF18A5 /* ViewController.m */; };
 		49824C3B200C3CAD00EF18A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49824C39200C3CAD00EF18A5 /* Main.storyboard */; };
@@ -17,8 +19,6 @@
 		49824C53200C5C5A00EF18A5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49824C51200C5C5A00EF18A5 /* TableViewCell.xib */; };
 		49824C56200C5D7C00EF18A5 /* cellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C55200C5D7C00EF18A5 /* cellItem.m */; };
 		49824C59200C5D9400EF18A5 /* HomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C58200C5D9400EF18A5 /* HomePageViewModel.m */; };
-		49824C61200C730C00EF18A5 /* XMGHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C5D200C730B00EF18A5 /* XMGHttpManager.m */; };
-		49824C62200C730C00EF18A5 /* XMGNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C60200C730C00EF18A5 /* XMGNetworkManager.m */; };
 		49824C6A200C789100EF18A5 /* HomeCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49824C69200C789100EF18A5 /* HomeCellViewModel.m */; };
 		F74EB80FD5AEDD126189FCA1 /* Pods_RAC_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F7F414164C77E9C282628 /* Pods_RAC_MVVM.framework */; };
 /* End PBXBuildFile section */
@@ -27,6 +27,10 @@
 		08967A81DD206D4DE3FDB693 /* Pods-RAC+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		0C5F7F414164C77E9C282628 /* Pods_RAC_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BE920BF2328F640DFE8FBE /* Pods-RAC+MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		494C787D200D90D40017D037 /* XMGHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHttpManager.h; sourceTree = "<group>"; };
+		494C787E200D90D40017D037 /* XMGHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHttpManager.m; sourceTree = "<group>"; };
+		494C7880200D90D40017D037 /* XMGNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNetworkManager.h; sourceTree = "<group>"; };
+		494C7881200D90D40017D037 /* XMGNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNetworkManager.m; sourceTree = "<group>"; };
 		49824C30200C3CAD00EF18A5 /* RAC+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49824C33200C3CAD00EF18A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49824C34200C3CAD00EF18A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +49,6 @@
 		49824C57200C5D9400EF18A5 /* HomePageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewModel.h; sourceTree = "<group>"; };
 		49824C58200C5D9400EF18A5 /* HomePageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewModel.m; sourceTree = "<group>"; };
 		49824C5A200C5DB800EF18A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		49824C5C200C730B00EF18A5 /* XMGHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHttpManager.h; sourceTree = "<group>"; };
-		49824C5D200C730B00EF18A5 /* XMGHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHttpManager.m; sourceTree = "<group>"; };
-		49824C5F200C730C00EF18A5 /* XMGNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNetworkManager.h; sourceTree = "<group>"; };
-		49824C60200C730C00EF18A5 /* XMGNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNetworkManager.m; sourceTree = "<group>"; };
 		49824C67200C759600EF18A5 /* ViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelProtocol.h; sourceTree = "<group>"; };
 		49824C68200C789100EF18A5 /* HomeCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellViewModel.h; sourceTree = "<group>"; };
 		49824C69200C789100EF18A5 /* HomeCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellViewModel.m; sourceTree = "<group>"; };
@@ -72,6 +72,24 @@
 				0C5F7F414164C77E9C282628 /* Pods_RAC_MVVM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494C787C200D90D40017D037 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				494C787D200D90D40017D037 /* XMGHttpManager.h */,
+				494C787E200D90D40017D037 /* XMGHttpManager.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		494C787F200D90D40017D037 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				494C7880200D90D40017D037 /* XMGNetworkManager.h */,
+				494C7881200D90D40017D037 /* XMGNetworkManager.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		49824C27200C3CAD00EF18A5 = {
@@ -112,8 +130,8 @@
 		49824C4A200C5C4400EF18A5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				49824C5B200C730B00EF18A5 /* Http */,
-				49824C5E200C730C00EF18A5 /* Network */,
+				494C787C200D90D40017D037 /* Http */,
+				494C787F200D90D40017D037 /* Network */,
 				49824C4B200C5C4400EF18A5 /* Controller */,
 				49824C4C200C5C4400EF18A5 /* Model */,
 				49824C4D200C5C4400EF18A5 /* View */,
@@ -159,26 +177,6 @@
 				49824C69200C789100EF18A5 /* HomeCellViewModel.m */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		49824C5B200C730B00EF18A5 /* Http */ = {
-			isa = PBXGroup;
-			children = (
-				49824C5C200C730B00EF18A5 /* XMGHttpManager.h */,
-				49824C5D200C730B00EF18A5 /* XMGHttpManager.m */,
-			);
-			name = Http;
-			path = "../../../../百度云下载/02阶段/01/RAC/10-ReactiveCocoa + MVVM(网络请求数据)/01-导入RAC/Classes/Http";
-			sourceTree = "<group>";
-		};
-		49824C5E200C730C00EF18A5 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				49824C5F200C730C00EF18A5 /* XMGNetworkManager.h */,
-				49824C60200C730C00EF18A5 /* XMGNetworkManager.m */,
-			);
-			name = Network;
-			path = "../../../../百度云下载/02阶段/01/RAC/10-ReactiveCocoa + MVVM(网络请求数据)/01-导入RAC/Classes/Network";
 			sourceTree = "<group>";
 		};
 		6A5D3EF5B3373DD824274A33 /* Pods */ = {
@@ -313,15 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49824C61200C730C00EF18A5 /* XMGHttpManager.m in Sources */,
 				49824C59200C5D9400EF18A5 /* HomePageViewModel.m in Sources */,
 				49824C38200C3CAD00EF18A5 /* ViewController.m in Sources */,
+				494C7882200D90D50017D037 /* XMGHttpManager.m in Sources */,
 				49824C52200C5C5A00EF18A5 /* TableViewCell.m in Sources */,
 				49824C43200C3CAD00EF18A5 /* main.m in Sources */,
 				49824C6A200C789100EF18A5 /* HomeCellViewModel.m in Sources */,
 				49824C56200C5D7C00EF18A5 /* cellItem.m in Sources */,
+				494C7883200D90D50017D037 /* XMGNetworkManager.m in Sources */,
 				49824C35200C3CAD00EF18A5 /* AppDelegate.m in Sources */,
-				49824C62200C730C00EF18A5 /* XMGNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/youjutou/Desktop/RAC+MVVM/RAC+MVVM/RAC+MVVM/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/youjutou/Desktop/OsChina/RAC+MVVM/RAC+MVVM/RAC+MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = "RAC+MVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "More.RAC-MVVM";
@@ -472,7 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/youjutou/Desktop/RAC+MVVM/RAC+MVVM/RAC+MVVM/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/youjutou/Desktop/OsChina/RAC+MVVM/RAC+MVVM/RAC+MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = "RAC+MVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "More.RAC-MVVM";
