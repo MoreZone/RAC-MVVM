@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LogView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GXl-L8-tp2">
+                    <rect key="frame" x="80" y="126" width="215" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="ted-BE-4Ih"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vq6-CC-3Ah">
+                    <rect key="frame" x="80" y="186" width="215" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="UFZ-ax-bS8"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46f-fN-pLR">
+                    <rect key="frame" x="140" y="259" width="94" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="DSS-vc-bzR"/>
+                        <constraint firstAttribute="height" constant="30" id="Pde-TU-aaP"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GXl-L8-tp2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="80" id="1VW-FZ-IB0"/>
+                <constraint firstItem="46f-fN-pLR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-0.5" id="B5w-wi-V1l"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GXl-L8-tp2" secondAttribute="trailing" constant="80" id="QWx-sA-eTt"/>
+                <constraint firstItem="vq6-CC-3Ah" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="80" id="XDe-qc-Twj"/>
+                <constraint firstItem="46f-fN-pLR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-59.5" id="YqV-U0-3Mk"/>
+                <constraint firstItem="vq6-CC-3Ah" firstAttribute="top" secondItem="GXl-L8-tp2" secondAttribute="bottom" constant="30" id="cMF-i6-jAl"/>
+                <constraint firstItem="GXl-L8-tp2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="106" id="dIs-aC-ztf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vq6-CC-3Ah" secondAttribute="trailing" constant="80" id="oRG-bx-Omi"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="logButton" destination="46f-fN-pLR" id="gRe-Mv-E1s"/>
+                <outlet property="nameField" destination="GXl-L8-tp2" id="ABc-Yr-tOU"/>
+                <outlet property="passField" destination="vq6-CC-3Ah" id="8Ce-xI-hyk"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

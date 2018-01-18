@@ -55,8 +55,6 @@ static NSString*const ID  =@"home";
                     [subscriber sendNext:recommends];
                     [subscriber sendCompleted];
                     
-                    
-                    
                 } failure:^(NSURLSessionDataTask *task, NSError *error) {
                     
                     [subscriber sendError:error];
@@ -74,6 +72,7 @@ static NSString*const ID  =@"home";
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return  self.recommandCellVMs.count;
 }
+
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     TableViewCell*cell = [tableView dequeueReusableCellWithIdentifier:ID];

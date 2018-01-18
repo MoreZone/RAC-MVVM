@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "ViewModelProtocol.h"
-#import <UIKit/UIKit.h>
 
 #import "cellItem.h"
 
