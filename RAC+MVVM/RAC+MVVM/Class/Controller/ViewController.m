@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "HomePageViewModel.h"
 
+#define HT_LAZY(object, assignment) (object = object ?: assignment)
+
+
 @interface ViewController ()
 
 @property(nonatomic,strong)HomePageViewModel*models;
@@ -18,11 +21,21 @@
 @implementation ViewController
 
 -(HomePageViewModel*)models{
-    if (_models ==nil) {
-        _models = [[HomePageViewModel alloc]init];
-    }
-    return _models;
+    
+    return HT_LAZY(_models,({
+        HomePageViewModel *models = [[HomePageViewModel alloc]init];
+        models;
+    }));
+    
 }
+
+
+//-(HomePageViewModel*)models{
+//    if (_models ==nil) {
+//        _models = [[HomePageViewModel alloc]init];
+//    }
+//    return _models;
+//}
 
 - (void)viewDidLoad {
 
