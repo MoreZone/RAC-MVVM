@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+
+target 'RAC_MVVM_Secondary' do
+   use_frameworks!
+
+ pod ‘MMProgressHUD’
+pod 'AFNetworking'
+end

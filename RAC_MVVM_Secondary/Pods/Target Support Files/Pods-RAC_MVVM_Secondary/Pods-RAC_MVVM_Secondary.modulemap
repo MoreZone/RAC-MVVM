@@ -1,0 +1,6 @@
+framework module Pods_RAC_MVVM_Secondary {
+  umbrella header "Pods-RAC_MVVM_Secondary-umbrella.h"
+
+  export *
+  module * { export * }
+}
