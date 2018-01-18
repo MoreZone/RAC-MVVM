@@ -87,10 +87,14 @@ typedef void(^ResponseSuccess)(id response);
  callbaceOnCancelRequest:(BOOL)shouldCallbackOnCancelRequest;
 
 
+/** 配置公共请求头 只调用一次*/
++(void)configCommHttpHeaders:(NSDictionary*)httpHeaders;
 
+/** 取消所有请求*/
++(void)cancelAllRequest;
 
-
-
+/** 取消某个请求*/
++(void)cancelRequestWithURL:(NSString*)url;
 
 
 
