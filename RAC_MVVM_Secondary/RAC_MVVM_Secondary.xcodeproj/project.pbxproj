@@ -17,6 +17,7 @@
 		496ED1292010950B009BA118 /* showMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ED1282010950B009BA118 /* showMessageView.m */; };
 		496ED12D2010A05E009BA118 /* APPNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ED12C2010A05E009BA118 /* APPNetAPIClient.m */; };
 		496ED1302010A234009BA118 /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ED12F2010A234009BA118 /* NetWorking.m */; };
+		49E3699B2017052C009CD92E /* HttpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3699A2017052C009CD92E /* HttpServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		496ED12C2010A05E009BA118 /* APPNetAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPNetAPIClient.m; sourceTree = "<group>"; };
 		496ED12E2010A234009BA118 /* NetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
 		496ED12F2010A234009BA118 /* NetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		49E369992017052C009CD92E /* HttpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpServer.h; sourceTree = "<group>"; };
+		49E3699A2017052C009CD92E /* HttpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpServer.m; sourceTree = "<group>"; };
 		682F663BD5D358A2CA6B6E8B /* Pods-RAC_MVVM_Secondary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_MVVM_Secondary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_MVVM_Secondary/Pods-RAC_MVVM_Secondary.debug.xcconfig"; sourceTree = "<group>"; };
 		8A2AF798A148AA20D0296C76 /* Pods_RAC_MVVM_Secondary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_MVVM_Secondary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E706E6A93EF79ADFFF586ED2 /* Pods-RAC_MVVM_Secondary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_MVVM_Secondary.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_MVVM_Secondary/Pods-RAC_MVVM_Secondary.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 		496ED12A2010A03D009BA118 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				49E369992017052C009CD92E /* HttpServer.h */,
+				49E3699A2017052C009CD92E /* HttpServer.m */,
 				496ED1272010950B009BA118 /* showMessageView.h */,
 				496ED1282010950B009BA118 /* showMessageView.m */,
 				496ED12B2010A05E009BA118 /* APPNetAPIClient.h */,
@@ -244,6 +249,7 @@
 				496ED1302010A234009BA118 /* NetWorking.m in Sources */,
 				496ED12D2010A05E009BA118 /* APPNetAPIClient.m in Sources */,
 				496ED1292010950B009BA118 /* showMessageView.m in Sources */,
+				49E3699B2017052C009CD92E /* HttpServer.m in Sources */,
 				496ED12120109244009BA118 /* main.m in Sources */,
 				496ED11320109244009BA118 /* AppDelegate.m in Sources */,
 			);
